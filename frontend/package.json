@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "proxy": "http://localhost:8000",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -10,8 +11,16 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@mui/icons-material": "^9.4.0",
+    "@mui/material": "^9.4.0",
+    "axios": "^1.20.0",
+    "papaparse": "^5.7.0",
     "react": "^19.2.8",
-    "react-dom": "^19.2.8"
+    "react-dom": "^19.2.8",
+    "react-window": "^2.3.0",
+    "recharts": "^3.10.1"
   },
   "devDependencies": {
     "@types/react": "^19.2.17",

@@ -1,0 +1,10 @@
+fastapi
+fastapi[standard]
+uvicorn[standard]
+pydantic-settings
+python-dotenv
+python-multipart
+torch
+numpy
+scikit-learn
+joblib
